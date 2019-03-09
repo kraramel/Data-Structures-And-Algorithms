@@ -5,6 +5,7 @@ This a simple repository where i will try to write implementation of the data st
 
 
 # Table of Contents
+1. [Big O](#example)
 1. [Arrays](#example)
 2. [Hash Tables](#example2)
 3. [Linked Lists](#third-example)  

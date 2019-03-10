@@ -18,7 +18,20 @@ This a simple repository where i will try to write implementation of the data st
 10. [Searching + BFS + DFS](#example)
 11. [Dynamic Programming](#example)
 
----
+
+## Big O
+
+First i'm going to ask you this question : What is a good code ? Well the answer is that the code must be :
+1. Readable
+2. Scalable
+
+Readability means that your code is generally clean, and others can easily understand it.
+
+Scalable is related to our subject **Big O** . 
+
+
+
+
 ## License
 >You can check out the full license [here](https://github.com/kraramel/Data-Structures-And-Algorithms/blob/master/LICENSE.md)
 

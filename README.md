@@ -95,7 +95,7 @@ Luckily for us in JavaScript, arrays are dynamic. We don't have to worry about t
 ### Implementing an array
 
 First we are going to create our own array data structure, we are not going to use the pre-implemented type of array that JavaScript has.
-> You can check the [code](Data-Structures-And-Algorithms/arrayClass.js)
+> You can check the [code](/arrayClass.js)
 
 
 ## License

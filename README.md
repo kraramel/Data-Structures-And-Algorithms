@@ -1,7 +1,7 @@
 # Data Structures And Algorithms
 ## Introduction 
 
-This a simple repository where i will try to write implementation of the data structures i will learn. The choice of the programming language is still a mystery for me. I will decide by the time i begin.
+This a simple repository where i will try to write implementation of the data structures i will learn. The choice of the programming language is going to be JavaScript. By the time i'm writing this introduction, i can say that i'm just learning JavaScript, so my main goal is to learn the language and trying to understand it more by using data structures and implementing some basic algorithms. So this repository is a way to show my evolution in the language through data structures and algorithms. Hope you will like it.
 
 
 # Table of Contents
@@ -46,18 +46,56 @@ First we need to know what companies are looking for. Most people tend to think 
 
 **Analytic Skills** : It is how you can think through a problem and analyzethings. And when you're coding during an interview, they want to hear your tought process and how you go from not  knowing the answer to solving the problem
 
-**Coding Skills** : Is your coding is clean, organized and readable
+**Coding Skills** : Is your coding clean, organized and readable
 
-**Technical Skills** : Do you know the fundamentals, do you understand the pros and cons of different solutions.
+**Technical Skills** : Do you know the fundamentals, do you understand the pros and cons of different solutions
 
-**Communication Skills** : Are you going to fit well and work well in the company.
-
-
+**Communication Skills** : Are you going to fit well and work well in the company
 
 
- 
+## Arrays
+
+Arrays which are sometimes called lists, organizes items sequentially, that means one after another in memory.
+
+So in JavaScript there is some methods that we can use with arrays.
+
+const strings = ['a', 'b', 'c', 'd'];
+1. **push**  : Allows us to add something in the end of the array. ( **0(1)** ) 
 
 
+> strings.push( 'e' );  **===>**   [ 'a', 'b', 'c', 'd', 'e' ]
+
+2. **pop** : Removes the last item in the array. ( **O(1)** )
+
+> strings.pop( ); **===>**   [ 'a', 'b', 'c' ]
+
+3. **unshift** : Add an item in the beginning of the array. ( **O(n)** )
+
+> strings.unshift( 'x' ); **===>**   [ 'x', 'a', 'b', 'c', 'd' ]
+
+
+4. **splice** : Add something in the middle of the array. ( **O(n)** )
+
+> strings.splice( 2 , 0 , ' superman ' ); **===>**   [ 'a', 'b', 'superman', 'c', 'd' ]
+
+This means go to index 2 where c was initially and put superman there, and shift everything to the right.
+We can also delete with splice (Second parameter).
+
+### Types of arrays 
+
+There is two types of arrays : 
+
+- Static arrays : They are fixed in size, meaning you need to specify the number of elements your array will hold ahead of time. 
+
+- Dynamic arrays : They automatically allocate memory according to the increase in size of the array.
+
+Luckily for us in JavaScript, arrays are dynamic. We don't have to worry about the allocation of memory.
+
+
+### Implementing an array
+
+First we are going to create our own array data structure, we are not going to use the pre-implemented type of array that JavaScript has.
+> You can check the [code]()
 
 
 ## License

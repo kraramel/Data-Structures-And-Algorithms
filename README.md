@@ -5,10 +5,10 @@ This a simple repository where i will try to write implementation of the data st
 
 
 # Table of Contents
-1. Big O
-1. How to solve problems
-1. [Arrays](/Arrays)
-2. [Hash Tables](/HashTables)
+1. [Big O](#big-o)
+1. [How to solve problems](#example)
+1. [Arrays](#example)
+2. [Hash Tables](#example2)
 3. [Linked Lists](#third-example)  
 4. [Stacks](#example)
 5. [Queues](#example)

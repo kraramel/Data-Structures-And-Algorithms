@@ -6,10 +6,10 @@ This a simple repository where i will try to write implementation of the data st
 
 # Table of Contents
 1. [Big O](#big-o)
-1. [How to solve problems](#example)
-1. [Arrays](#example)
-2. [Hash Tables](#example2)
-3. [Linked Lists](#third-example)  
+1. [How to solve problems](how-to-solve-problems)
+1. [Arrays](#arrays)
+2. [Hash Tables](#hash-tables)
+3. [Linked Lists](#linked-lists)  
 4. [Stacks](#example)
 5. [Queues](#example)
 6. [Trees](#example)
@@ -189,7 +189,7 @@ Again to see the difference between Hash Tables and Arrays, you can check the [*
 
 > Here is the [Solution](/HashTables/firstRecurringCharacter.js)
 
-
+## Linked Lists
 
 ## License
 >You can check out the full license [here](https://github.com/kraramel/Data-Structures-And-Algorithms/blob/master/LICENSE.md)

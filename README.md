@@ -173,6 +173,24 @@ it's created like this : ``const b = new Set();``
 
 > You can check the [code](/HashTables/hashTableClass.js)
 
+### Why Hash Tables
+
+Hash tables are great when you want quick access to certain values. Unlike arrays, where we have to search through the whole array ( O(n) ) . This is why we see hash tables in places like DataBases.
+But one problem that we mentionned before is the idea of no concept of order .
+
+Again to see the difference between Hash Tables and Arrays, you can check the [**Big-O cheat sheet**](http://bigocheatsheet.com/)  .
+
+## Exercise 1 : First Recurring Character
+
+- Create a function that search in an array and tells you which number gets repeated first.
+- Given an array as an input : **[2, 5, 8, 9, 1, 9]** 
+- It should return **9** 
+- If there is no number that gets repeated it should return **undefined**
+
+> Here is the [Solution](/HashTables/firstRecurringCharacter.js)
+
+
+
 ## License
 >You can check out the full license [here](https://github.com/kraramel/Data-Structures-And-Algorithms/blob/master/LICENSE.md)
 

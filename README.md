@@ -6,7 +6,7 @@ This a simple repository where i will try to write implementation of the data st
 
 # Table of Contents
 1. [Big O](#big-o)
-1. [How to solve problems](how-to-solve-problems)
+1. [How to solve problems](#how-to-solve-problems)
 1. [Arrays](#arrays)
 2. [Hash Tables](#hash-tables)
 3. [Linked Lists](#linked-lists)  

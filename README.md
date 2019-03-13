@@ -106,7 +106,12 @@ NOTE ==> **Strings are simply array of characters**
 
 > Here is the [Solution](/Arrays/reverseString.js)
 
+### Exercice 2 : Merge Sorted Arrays
 
+- You are given 2 sorted arrays as an input
+- And as an output you have to obtain one sorted array that is the fusion of the two input arrays
+
+> Here is the [Solution](/Arrays/mergeSortedArrays.js)
 
 ## License
 >You can check out the full license [here](https://github.com/kraramel/Data-Structures-And-Algorithms/blob/master/LICENSE.md)

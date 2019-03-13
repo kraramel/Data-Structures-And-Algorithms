@@ -42,8 +42,8 @@ class MyArray {
         this.length--;
     }
 }
-// These are some tests that can help you understand the process
 
+// These are some tests that can help you understand the process
 const newArray = new MyArray();
 console.log(newArray);
 newArray.push('Hi');

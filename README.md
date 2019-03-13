@@ -97,6 +97,16 @@ Luckily for us in JavaScript, arrays are dynamic. We don't have to worry about t
 First we are going to create our own array data structure, we are not going to use the pre-implemented type of array that JavaScript has.
 > You can check the [code](/arrayClass.js)
 
+### Exercice 1 : Reverse a String
+
+- Create a function that reverses a string:
+- Example : '**I love JavaScript**' should be '**tpircSavaJ evol I**'
+
+NOTE ==> **Strings are simply array of characters**
+
+> Here is the [Solution](/reverseString.js)
+
+
 
 ## License
 >You can check out the full license [here](https://github.com/kraramel/Data-Structures-And-Algorithms/blob/master/LICENSE.md)

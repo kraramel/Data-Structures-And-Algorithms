@@ -113,6 +113,51 @@ NOTE ==> **Strings are simply array of characters**
 
 > Here is the [Solution](/Arrays/mergeSortedArrays.js)
 
+## Hash Tables
+
+In JavaScript, objects are a type of Hash Tables.
+Luckily for us, pretty much every language has a built in hash table just like arrays. In python they are called dictionaries, in JavaScript as we said are objects, and in Java they are called maps.
+I'm going to be brief about how hash tables works.
+
+First we have to know that a hash table have keys and values. For each key, we find a value.
+Now a way of how hash tables works is we have the key which is, as an example, **"orange"** and this key is used as the index of where to find the value in memory.
+
+This is done with something called a **hash function**.
+The **hash function** gets to decide where to put the data on our memory. So what's a **hash function** ?
+
+A **hash function** is simply a function that generates a value of fixed length for each input that it gets. Some hash function that you should know : 
+- MD5
+- SHA-256 et SHA-512
+
+Some key aspects of **hash functions** :
+
+- It's one way
+- How many times i put a specific word, the result is going to be the same. But as soon as i change one thing in the input the output is going to completely change. ( Even with capital letters )
+
+### Hash Collisions 
+In JavaScript i can create an object :
+```
+let user ={
+    age: 34,
+    name: amin,
+    magic: true,
+    scream: function scream(){
+        console.log('GHOOOOOOOR');
+    }
+}
+```
+So all of these properties are all going to be placed somewhere in memory at different adresses. Biut i can access this really, really fast.
+```
+user.age //0(1)
+user.spell = 'aboono aboono'; // add the spell         //property with the associated value O(1)
+user.scream(); // i can access this function in memory with O(1);
+```
+So all of this is nice but there is a problem with hash tables, and it is **Hash Collision** 
+The collision happens when the hash function gives to two different keys the same adresse in memory. And one of the solution that solve this problem are **Linked Lists**. 
+
+Below an illustration of what we just learned.
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Hash_table_5_0_1_1_1_1_1_LL.svg/800px-Hash_table_5_0_1_1_1_1_1_LL.svg.png)
+
 ## License
 >You can check out the full license [here](https://github.com/kraramel/Data-Structures-And-Algorithms/blob/master/LICENSE.md)
 

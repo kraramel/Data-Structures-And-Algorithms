@@ -60,7 +60,7 @@ Arrays which are sometimes called lists, organizes items sequentially, that mean
 So in JavaScript there is some methods that we can use with arrays.
 
 const strings = ['a', 'b', 'c', 'd'];
-1. **push**  : Allows us to add something in the end of the array. ( **0(1)** ) 
+1. **push**  : Allows us to add something in the end of the array. ( **0(1)** )
 
 
 > strings.push( 'e' );  **===>**   [ 'a', 'b', 'c', 'd', 'e' ]
@@ -95,7 +95,7 @@ Luckily for us in JavaScript, arrays are dynamic. We don't have to worry about t
 ### Implementing an array
 
 First we are going to create our own array data structure, we are not going to use the pre-implemented type of array that JavaScript has.
-> You can check the [code](/arrayClass.js)
+> You can check the [code](/Arrays/arrayClass.js)
 
 ### Exercice 1 : Reverse a String
 
@@ -104,7 +104,7 @@ First we are going to create our own array data structure, we are not going to u
 
 NOTE ==> **Strings are simply array of characters**
 
-> Here is the [Solution](/reverseString.js)
+> Here is the [Solution](/Arrays/reverseString.js)
 
 
 

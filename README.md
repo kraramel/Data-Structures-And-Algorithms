@@ -5,8 +5,8 @@ This a simple repository where i will try to write implementation of the data st
 
 
 # Table of Contents
-1. [Big O](#example)
-1. [How to solve problems](#example)
+1. Big O
+1. How to solve problems
 1. [Arrays](/Arrays)
 2. [Hash Tables](/HashTables)
 3. [Linked Lists](#third-example)  

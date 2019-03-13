@@ -106,7 +106,7 @@ NOTE ==> **Strings are simply array of characters**
 
 > Here is the [Solution](/Arrays/reverseString.js)
 
-### Exercice 2 : Merge Sorted Arrays
+### Exercise 2 : Merge Sorted Arrays
 
 - You are given 2 sorted arrays as an input
 - And as an output you have to obtain one sorted array that is the fusion of the two input arrays
@@ -157,6 +157,21 @@ The collision happens when the hash function gives to two different keys the sam
 
 Below an illustration of what we just learned.
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Hash_table_5_0_1_1_1_1_1_LL.svg/800px-Hash_table_5_0_1_1_1_1_1_LL.svg.png)
+
+### Hash tables in different languages
+
+Now in JavaScript, in an object like `user` that we saw before, if you pass a key that is a number or a function it actually gets stringified and it only allows string keys but with the new version of JvaScript (ES6), you actually have something called Map and Sets.
+
+A map is created like this : ``const a = new Map();`` 
+The map allows you to save any datatype as the key.
+It also maintains insertion order.
+
+A Set is very similar to map but it only storess keys, no values.
+it's created like this : ``const b = new Set();``
+
+### Implementing a Hash Table
+
+> You can check the [code](/Hash/arrayClass.js)
 
 ## License
 >You can check out the full license [here](https://github.com/kraramel/Data-Structures-And-Algorithms/blob/master/LICENSE.md)

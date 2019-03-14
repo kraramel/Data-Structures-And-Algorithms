@@ -180,7 +180,7 @@ But one problem that we mentionned before is the idea of no concept of order .
 
 Again to see the difference between Hash Tables and Arrays, you can check the [**Big-O cheat sheet**](http://bigocheatsheet.com/)  .
 
-## Exercise 1 : First Recurring Character
+### Exercise 1 : First Recurring Character
 
 - Create a function that search in an array and tells you which number gets repeated first.
 - Given an array as an input : **[2, 5, 8, 9, 1, 9]** 
@@ -190,6 +190,34 @@ Again to see the difference between Hash Tables and Arrays, you can check the [*
 > Here is the [Solution](/HashTables/firstRecurringCharacter.js)
 
 ## Linked Lists
+
+It is a simply an element that links to the next element that links to the next element that links to the next element and it keeps going until the last element that points to **null** .
+
+So for **JavaScript**, it doesn't come pre-built with **Linked Lists** . But Luckily for us we can build one.
+
+> A pretty good [website](https://visualgo.net/en/list) for visualizing **Linked Lists** .
+
+
+### Implementing a Linked List
+
+Now it's time to create our own linked list, below is the structure that we are going to use :
+```
+// 69 --> 100 --> 11
+
+let  myLinkedList{
+    head: {
+        value: 69,
+        next: {
+            value: 100,
+            next: {
+                value: 11,
+                next: null
+            }
+        }
+    }
+}
+```
+> You can check the [code](/HashTables/hashTableClass.js)
 
 ## License
 >You can check out the full license [here](https://github.com/kraramel/Data-Structures-And-Algorithms/blob/master/LICENSE.md)

@@ -191,7 +191,7 @@ Again to see the difference between Hash Tables and Arrays, you can check the [*
 
 ## Linked Lists
 
-It is a simply an element that links to the next element that links to the next element that links to the next element and it keeps going until the last element that points to **null** .
+It is simply an element that links to the next element that links to the next element that links to the next element and it keeps going until the last element that points to **null** .
 
 So for **JavaScript**, it doesn't come pre-built with **Linked Lists** . But Luckily for us we can build one.
 
@@ -217,6 +217,8 @@ let  myLinkedList{
     }
 };
 ```
+
+I also added the **append** , **prepend** , **insert** and **remove** methods .
 > You can check the [code](/LinkedLists/linkedlistClass.js)
 
 ## License

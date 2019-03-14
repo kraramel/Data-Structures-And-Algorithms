@@ -42,6 +42,19 @@ class LinkedList{
         this.head = newNode;
         this.length++;
         return this;
+    }
+    // A function that is simply going to list our linkedList as an array
+    printList(){
+        const array = [];
+        let currentNode = this.head;
+        while (currenNode !== null) {
+            array.push(currentNode.value);
+            currentNode = currentNode.next;
+        }
+        return array;
+    }
+
+    insert(value, index){
 
     }
 }

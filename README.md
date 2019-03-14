@@ -215,9 +215,9 @@ let  myLinkedList{
             }
         }
     }
-}
+};
 ```
-> You can check the [code](/HashTables/hashTableClass.js)
+> You can check the [code](/LinkedLists/linkedlistClass.js)
 
 ## License
 >You can check out the full license [here](https://github.com/kraramel/Data-Structures-And-Algorithms/blob/master/LICENSE.md)

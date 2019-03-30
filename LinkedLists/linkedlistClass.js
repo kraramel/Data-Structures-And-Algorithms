@@ -1,7 +1,8 @@
 
 
-// 69 --> 100 --> 11
+// The example we are working on : 69 --> 100 --> 11
 
+// We create a nodeClass to make the code cleaner
 class Node {
     constructor(value){     
         this.value = value;
@@ -9,6 +10,7 @@ class Node {
     }
 }
 
+// Our linkedListClass
 class LinkedList{
     constructor(value){
         this.head = {
@@ -43,6 +45,7 @@ class LinkedList{
         this.length++;
         return this;
     }
+
     // A function that is simply going to list our linkedList as an array
     printList(){
         const array = [];
@@ -54,6 +57,7 @@ class LinkedList{
         return array;
     }
 
+    // A method to insert a value in a specific place(index) inside the linked list
     insert(value, index){
 
     }

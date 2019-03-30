@@ -231,7 +231,7 @@ Doubly Linked List is similur to the previous one but it also links to the node 
 
 Let's convert our singly linked list to a doubly linked list .
 
-> You can check the [code](/LinkedLists/doublyinkedlistClass.js)
+> You can check the [code](/LinkedLists/doublylinkedlist.js)
 
 ## License
 >You can check out the full license [here](https://github.com/kraramel/Data-Structures-And-Algorithms/blob/master/LICENSE.md)

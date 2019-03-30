@@ -75,6 +75,14 @@ class LinkedList {
         return this.printList();
     }
 
+    remove(index){
+        const leader = this.traverseToIndex(index - 1);
+        const unwantedNode = leader.next;
+        leader.next = unwantedNode.next;
+        this.length++;
+        return this.printList;
+    }
+
     // A function that returns the node with the given index
     traverseToIndex(index) {
         let counter = 0;
@@ -95,6 +103,8 @@ myLinkedList.append(100);
 myLinkedList.append(11);
 myLinkedList.prepend(99);
 mylinkedList.insert(77,2);
+mylinkedList.printList();
+mylinkedList.remove(3);
 mylinkedList.printList();
 
 

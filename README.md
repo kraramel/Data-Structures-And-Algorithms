@@ -223,6 +223,16 @@ let  myLinkedList{
 I also added the **append** , **prepend** , **insert** and **remove** methods .
 > You can check the [code](/LinkedLists/linkedlistClass.js)
 
+### Doubly Linked Lists
+
+Doubly Linked List is similur to the previous one but it also links to the node before it. With the doubly linked list we can traverse our list backwards
+
+### Exercise 1 : Why Linked Lists ?
+
+Let's convert our singly linked list to a doubly linked list .
+
+> You can check the [code](/LinkedLists/doublyinkedlistClass.js)
+
 ## License
 >You can check out the full license [here](https://github.com/kraramel/Data-Structures-And-Algorithms/blob/master/LICENSE.md)
 

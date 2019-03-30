@@ -3,6 +3,8 @@
 
 This a simple repository where i will try to write implementation of the data structures i will learn. The choice of the programming language is going to be JavaScript. By the time i'm writing this introduction, i can say that i'm just learning JavaScript, so my main goal is to learn the language and trying to understand it more by using data structures and implementing some basic algorithms. So this repository is a way to show my evolution in the language through data structures and algorithms. Hope you will like it.
 
+All of the tests will be done in [**repl.it**](https://repl.it/@valeryalexandrovich/Native-Browser-JavaScript) .
+
 
 # Table of Contents
 1. [Big O](#big-o)

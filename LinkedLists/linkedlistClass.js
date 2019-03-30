@@ -93,7 +93,24 @@ class LinkedList {
         }
         return currentNode;
     }
+    
+    reverse(){
+        // If the linked list contains just one element
+        if (!this.head.next) {
+            return this;
+        }
 
+        let first = this.head;
+        let second = first.next;
+        while(second){ // as long as second is not null
+            const temp = second.next;
+            second.next = first;
+            first = second;
+            second = temp;
+        }
+        this.head.next = null;
+        this.head = first;
+    }
 
 }
 

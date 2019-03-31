@@ -5,6 +5,8 @@ This a simple repository where i will try to write implementation of the data st
 
 All of the tests will be done in [**repl.it**](https://repl.it/@valeryalexandrovich/Native-Browser-JavaScript) .
 
+And this is a [**Mind Map**](https://coggle.it/diagram/W5E5tqYlrXvFJPsq/t/master-the-interview-click-here-for-course-link) summarizing all what we are going to see.
+
 
 # Table of Contents
 1. [Big O](#big-o)
@@ -12,8 +14,7 @@ All of the tests will be done in [**repl.it**](https://repl.it/@valeryalexandrov
 1. [Arrays](#arrays)
 2. [Hash Tables](#hash-tables)
 3. [Linked Lists](#linked-lists)  
-4. [Stacks](#example)
-5. [Queues](#example)
+4. [Stacks + Queues](#Stacks-+-Queues)
 6. [Trees](#example)
 7. [Graphs](#example)
 8. [Recursion](#example)
@@ -232,6 +233,32 @@ Doubly Linked List is similur to the previous one but it also links to the node 
 Let's convert our singly linked list to a doubly linked list .
 
 > You can check the [code](/LinkedLists/doublylinkedlist.js)
+
+The perks of linked lists :
+- Fast insertion
+- Fast deletion
+- Ordered
+- Flexible size
+
+The disadvantages of linked lists : 
+- Slow lookup
+- More memory
+
+## Stacks + Queues
+
+
+### Important question that can be asked in an interview
+
+Stacks can be implemented by both **Arrays** or **Linked Lists** . They both work very well. One major thing, is that Arrays allow something that is called **Cache Locality**, which make them technically faster when accessing items in memory because they are right next to each other versus a linked list that has  them scattered all over memory.
+To summarize, we have to think about what sort of operations we are going to do and what are our priorities.
+
+Queues on the other hand, you would never want to build it with an Array. Ideally you want to implement it with a linked list. Arrays are bad because if we want to remove the first item in the queue we have to shift the indexes over.**( O(n)** ).
+
+### Exercise Stacks vs Queues
+
+
+
+
 
 ## License
 >You can check out the full license [here](https://github.com/kraramel/Data-Structures-And-Algorithms/blob/master/LICENSE.md)

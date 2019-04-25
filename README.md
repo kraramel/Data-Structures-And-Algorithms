@@ -255,6 +255,19 @@ To summarize, we have to think about what sort of operations we are going to do 
 Queues on the other hand, you would never want to build it with an Array. Ideally you want to implement it with a linked list. Arrays are bad because if we want to remove the first item in the queue we have to shift the indexes over.**( O(n)** ).
 
 ### Exercise Stacks vs Queues
+### Exercise Stack Implementation (Linked Lists)
+> You can check the [code](/Stacks/stackClass_LinkedList.js)
+
+
+## Trees
+
+### Binary Search Tree
+
+#### Exercice Binary Search Tree Implementation
+> You can check the [code](/Stacks/stackClass_LinkedList.js)
+
+You can find in this implementation the Lookup, insert and remove methods.
+
 
 
 
